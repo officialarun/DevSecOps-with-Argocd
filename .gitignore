@@ -2,5 +2,22 @@
 .terraform.lock.hcl
 terraform.tfstate
 terraform.tfstate.backup
+terraform.tfstate.*.backup
 aws/
 awscliv2.zip
+*.tfvars
+*.tfvars.json
+!example.tfvars
+
+# IDE and OS files
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Local env files
+.env
+.env.local
+
